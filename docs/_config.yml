@@ -1,4 +1,8 @@
 theme: jekyll-theme-cayman
+logo: images/MAGsearcher-hex
 gems:
   - jekyll-octicons
 title: Introduction to MAGsearcher
+description: Search MAGs for queries of interest
+show_downloads: true
+google_analytics:
