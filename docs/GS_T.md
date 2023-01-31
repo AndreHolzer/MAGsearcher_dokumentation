@@ -17,12 +17,9 @@ Get the latest version/release of the tool using the Git clone command
 ```
  git clone https://github.com/AndreHolzer/MAGsearcher --recursive
 ```
-Alternatively you can download the MAGsearcher repository manually. 
-
+> Alternatively you can download the MAGsearcher repository manually. 
 > Go to the [MAGsearcher GitHub page](https://github.com/AndreHolzer/MAGsearcher) and download the latest release as .zip file or use this [quick download link](https://github.com/AndreHolzer/MAGsearcher/archive/master.zip) to get the latest version.
-
 > <img src="images/GS_T_1.png" height="300px">
-
 > Unzip the folder using a common archive managing software
 
 
