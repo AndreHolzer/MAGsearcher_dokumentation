@@ -1,6 +1,6 @@
 # Introduction to MAGsearcher
 
-[{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](GS.md)
+[{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](GS.md) <a href='https://github.com/AndreHolzer/MAGsearcher'><img src='images/MAGsearcher-hex.png' align="right" height="180" /></a>
 
 -----
 
