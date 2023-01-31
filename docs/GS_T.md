@@ -1,3 +1,5 @@
+<a href='https://github.com/AndreHolzer/MAGsearcher'><img src='images/MAGsearcher-hex.png' align="right" height="180" /></a>
+
 # How to install MAGsearcher
 
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](GS.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](US.md)

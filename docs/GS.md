@@ -1,3 +1,5 @@
+<a href='https://github.com/AndreHolzer/MAGsearcher'><img src='images/MAGsearcher-hex.png' align="right" height="180" /></a>
+
 # Getting Started
 
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](index.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](GS_T.md)
