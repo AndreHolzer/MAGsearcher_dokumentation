@@ -19,26 +19,28 @@ Get the latest version/release of the tool using the Git clone command
 ```
 > Alternatively you can download the MAGsearcher repository manually. 
 > Go to the [MAGsearcher GitHub page](https://github.com/AndreHolzer/MAGsearcher) and download the latest release as .zip file or use this [quick download link](https://github.com/AndreHolzer/MAGsearcher/archive/master.zip) to get the latest version.
+>
 > <img src="images/GS_T_1.png" height="300px">
+>
 > Unzip the folder using a common archive managing software
 
 
-## Create conda envionemnt
+## Create conda environment
 
-Make the MAgsearcher diretory your new working directory
+Make the MAGsearcher diretory your new working directory
 ```
 cd MAGsearcher
 ```
-Check Conda for updates and install mamba
+Check conda for updates and install mamba
 ```
 conda update conda
 conda install mamba -c conda-forge
 ```
-Ceate MAGsearcher environment 
+Ceate conda environment for MAGsearcher
 ```
 mamba env create --file ./envs/conda_environment.yaml
 ```
-The conda environment can now be activated using
+The environment can now be activated using
 ```
 conda activate magsearcher
 ```

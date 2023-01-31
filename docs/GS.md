@@ -8,44 +8,71 @@
 
 ## Prerequisites
 
-Metapolish was written so it can be executed on all operating systems. This page gives detailed instructions on how to set up the required software to run the tool on Linux, Windows or MacOS operating systems. 
+MAGsearcher is implemented to be executed via the command line on linux based systems. This page gives detailed instructions on how to set up the required software to run the tool on Linux and MacOS operating systems. 
 
 
 
-### 1. Install the latest version of R
-A full installation guide for R can be found on the [CRAN website](https://cran.r-project.org/). 
+### Conda
+**Install Miniconda3 latest version** 
 
- Quick download links (Version 4.0.2):
+A full installation guide for Condo can be found on the [here][https://conda.io/projects/conda/en/latest/user-guide/install/index.html].
 
-   - [R for Windows](https://cran.r-project.org/bin/windows/base/R-4.0.2-win.exe)
+> **IMPORTANT**:  Make sure that you select the correct installer for your machine. Here we show how to do it for Linux 
 
-   - [R for Mac OS High Sierra and higher](https://cran.r-project.org/bin/macosx/R-4.0.2.pkg)
+1. Download the installer:
 
-   - [R for Linux](https://cran.r-project.org/bin/linux/)
+   - [Miniconda installer for Linux](https://docs.conda.io/en/latest/miniconda.html#linux-installers).
 
+     ```
+     $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+     ```
 
+   - [Anaconda installer for Linux](https://www.anaconda.com/download/).
 
-### 2. Install the latest version of RStudio
+2. [Verify your installer hashes](https://conda.io/projects/conda/en/latest/user-guide/install/download.html#hash-verification).
 
-More information can be found on the [RStudio website](https://rstudio.com).
+3. In your terminal window, run:
 
-  Quick download links (newest version):
+   - Miniconda:
 
-   - [RStudio for Windows](https://rstudio.com/products/rstudio/download/#download)
+     ```
+     bash Miniconda3-latest-Linux-x86_64.sh
+     ```
 
-   - [RStudio for Mac](https://rstudio.com/products/rstudio/download/#download)
+   - Anaconda:
 
-   - [RStudio for Linux](https://rstudio.com/products/rstudio/download/#download)
+     ```
+     bash Anaconda-latest-Linux-x86_64.sh
+     ```
 
+4. Follow the prompts on the installer screens.
 
+   ```
+   Do you accept the license terms? [yes|no]
+   [no] >>> yes
+   ```
 
-### 3. Install the latest version of XQuartz (for MacOS users only)
+   ```
+   Do you wish the installer to prepend the Miniconda3 install location
+   to PATH in your /your/home/.bashrc ? [yes|no]
+   [no] >>> yes
+   ```
 
-Mac users will need to have xQuartz isntalled in order for Metapolish to operate normally. More information on insatlling XQuartz can be found [here](https://www.xquartz.org).
+   If you are unsure about any setting, accept the defaults. You can change them later.
 
-  Quick download links (version 2.7.11):
+5. To make the changes take effect, close and then re-open your terminal window.
 
-   - [XQuartz for OS X 10.6.3 or later](https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg)
+6. Test your installation. In your terminal window or Anaconda Prompt, run the command `conda list`. A list of installed packages appears if it has been installed correctly.
+
+   
+
+**Updating Anaconda or Miniconda**
+
+Open a terminal window and run
+
+```bash
+conda update conda
+```
 
 
 
@@ -53,4 +80,4 @@ Mac users will need to have xQuartz isntalled in order for Metapolish to operate
 
 
 ----
- Once all prerequisites have been installed on your system, you can continue with [installing Metapolish](GS_T.md)
+ Once all prerequisites have been installed on your system, you can continue with [installing MAGsearcher](GS_T.md)
