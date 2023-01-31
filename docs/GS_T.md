@@ -14,18 +14,20 @@ Open a new terminal/shell and go to the directory you'd like to contain the MAGs
 ```
 cd ./scripts/  
 ```
-Get the latest version/release of the tool using the Pull or Git clone command
+Get the latest version/release of the tool using the Git clone command
 ```
  git clone https://github.com/AndreHolzer/MAGsearcher --recursive
 ```
-Alternatively you can manually download the MAGsearcher folder
+Alternatively you can download the MAGsearcher repository manually. 
 
 Go to the [MAGsearcher GitHub page](https://github.com/AndreHolzer/MAGsearcher) and download the latest release as .zip file or use this [quick download link](https://github.com/AndreHolzer/MAGsearcher/archive/master.zip) to get the latest version.
 
 <img src="images/GS_T_1.png" height="300px">
 Unzip the folder using a common archive managing software
 
-Once downloaded make the MAgsearcher diretory your new working directory
+## Create conda envionemnt
+
+Make the MAgsearcher diretory your new working directory
 ```
 cd MAGsearcher
 ```
