@@ -1,5 +1,9 @@
 # Introduction to MAGsearcher
 
+[{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](GS.md)
+
+----
+
 This page provides an introduction to the metagenomic querying tool [MAGsearcher](https://github.com/AndreHolzer/MAGsearcher) which allows for fast and accurate predictions of single proteins and whole metabolmic pathways. While the tool is currently still under active develoment, this documentation is created for the release of the software (v1.0) and will be updated alongside newer versions.
 
 
