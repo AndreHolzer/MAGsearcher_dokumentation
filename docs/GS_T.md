@@ -5,7 +5,6 @@
 ----
 
 
-
 ## Clone/Download the repository from Github
 
 ### For Linux and Mac:
@@ -23,7 +22,9 @@ Alternatively you can download the MAGsearcher repository manually.
 Go to the [MAGsearcher GitHub page](https://github.com/AndreHolzer/MAGsearcher) and download the latest release as .zip file or use this [quick download link](https://github.com/AndreHolzer/MAGsearcher/archive/master.zip) to get the latest version.
 
 <img src="images/GS_T_1.png" height="300px">
+
 Unzip the folder using a common archive managing software
+
 
 ## Create conda envionemnt
 
